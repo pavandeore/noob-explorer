@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
 import './style.css';
+import Header from './components/header';
+import Main from './components/main';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h2>hello </h2>
+        <Header/>
+        <Main />
+        <Footer />
       </div>
     );
   }
