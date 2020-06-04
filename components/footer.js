@@ -3,9 +3,9 @@ import React from 'react';
 function Footer(){
   return (
     <>
-      <main>
-      <p>This is Footer content</p>
-      </main>
+      <footer>
+      All rights reserved NoobExplore &copy;
+      </footer>
     </>
   )
 }
